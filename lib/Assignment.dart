@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
                   child: Center(child: Image.asset("assets/images/smuct.png")),
                 ),
                 Container(
-                  color: Colors.blue[900],
+                  color: Colors.blue,
                   width: double.infinity,
                   height: 150,
                   child: Row(
@@ -42,7 +42,7 @@ class Home extends StatelessWidget {
                       ),
                       Container(
                         decoration: BoxDecoration(
-                          border: Border.all(width: 3, color: Colors.orange),
+                          border: Border.all(width: 3, color: Colors.yellow),
                           borderRadius: BorderRadius.circular(100),
                           shape: BoxShape.rectangle,
                         ),
@@ -61,11 +61,11 @@ class Home extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  color: Colors.orange,
+                  color: Colors.yellow,
                   height: 3,
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 12,
                 ),
                 Container(
                   margin: EdgeInsets.all(5),
@@ -73,28 +73,28 @@ class Home extends StatelessWidget {
                   child: (Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Jubaer Hasan",
+                      Text("Mohinul Islam",
                          ),
-                      Text("ID: 183071031",
+                      Text("ID: 201071023",
                           ),
-                      Text("REG. NO. : 180007156",
+                      Text("REG. NO. : 201754118",
                           ),
-                      Text("Dept. of Computer Science & Engineering \n (B.Sc.CSE)",
+                      Text("Dept. of Computer Science & Engineering (B.Sc.CSE)",
                           ),
-                      Text("Blood Group : A+",
+                      Text("Blood Group : B+",
                          ),
                     ],
                   )),
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 12,
                 ),
                 Container(
                   height: 5,
-                  color: Colors.orange,
+                  color: Colors.yellow,
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 12,
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -104,7 +104,7 @@ class Home extends StatelessWidget {
 
                     ),
                     SizedBox(
-                      height: 5,
+                      height: 7,
                     ),
                     Text("Register",
                        ),
