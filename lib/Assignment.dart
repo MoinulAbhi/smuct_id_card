@@ -100,7 +100,7 @@ class Home extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Mehedi Hasan",
+                      "Hosne Ara Rahman",
 
                     ),
                     SizedBox(
